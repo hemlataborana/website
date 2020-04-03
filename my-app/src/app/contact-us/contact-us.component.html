@@ -1,0 +1,137 @@
+<!-- <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="/w3images/map.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+   -->
+   
+   <div id="contact-section">
+    <div class="container" style="text-align: center;margin-top: 2vw;">
+        <div class="clear-fix contact-address-content">
+            <!-- Section-header -->
+            <div class="section-header text-center">
+                <h2 class="title wow bounceIn animated heading-style" >Get in touch</h2>
+            </div>
+            <!-- /Section-header -->
+
+            <div>
+                <!-- contact -->
+                
+                <!-- /contact -->
+
+                <!-- contact -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="contact">
+                            <i class="fa fa-phone"></i>
+                            <h3>Phone</h3>
+                            <p>512-421-3940</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact">
+                            <i class="fa fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>email@support.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact">
+                            <i class="fa fa-map-marker"></i>
+                            <h3>Address</h3>
+                            <p>1739 Bubby Drive</p>
+                        </div>
+                    </div>
+                  </div>
+                
+                <!-- /contact -->
+
+                <!-- contact -->
+               
+            </div>
+            <!-- /contact -->
+        </div> <!-- /.contact-address-content -->
+
+        <div style="padding: 20px;">
+
+        </div>
+
+        <!-- Contact Form -->
+        <div class="send-message">
+
+            <form action="inc/sendemail.php" class="form-validation" autocomplete="off" method="post">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-input">
+                            <input type="text" placeholder="First Name*" name="Fname">
+                        </div> <!-- /.single-input -->
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-input">
+                            <input type="text" placeholder="Last Name*" name="Lname">
+                        </div> <!-- /.single-input -->
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="single-input">
+                            <input type="email" placeholder="Your Email*" name="email">
+                        </div> <!-- /.single-input -->
+                    </div>
+                </div> <!-- /.row -->
+                <div class="single-input">
+                    <input type="text" placeholder="Subject" name="sub">
+                </div> <!-- /.single-input -->
+                <textarea placeholder="Write Message" name="message"></textarea>
+
+                <button class="bg-warning text-white" style="color: cadetblue;">Send Message</button>
+
+            </form>
+
+
+
+            <!-- Contact Form Validation Markup -->
+            <!-- Contact alert -->
+            <div class="alert-wrapper" id="alert-success">
+                <div id="success">
+                    <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    <div class="wrapper">
+                        <p>Your message was sent successfully.</p>
+                    </div>
+                </div>
+            </div> <!-- End of .alert_wrapper -->
+            <div class="alert-wrapper" id="alert-error">
+                <div id="error">
+                    <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    <div class="wrapper">
+                        <p>Sorry!Something Went Wrong.</p>
+                    </div>
+                </div>
+            </div> <!-- End of .alert_wrapper -->
+        </div> <!-- /.send-message -->
+    </div> <!-- /.container -->
+</div> <!-- /#contact-section -->
+
+
+

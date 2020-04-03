@@ -1,0 +1,251 @@
+
+/* /* * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  /* input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  /* .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  } */
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }  
+  #contact-section .contact-address-content h2 {
+    margin: 95px 0 35px 0;
+  }
+  #contact-section .contact-address-content .left-side ul {
+    margin-top: 70px;
+  }
+  #contact-section .contact-address-content .left-side ul li{
+    position: relative;
+    padding-left: 85px;
+    margin-bottom: 50px;
+  }
+  #contact-section .contact-address-content .left-side ul li h6 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  #contact-section .contact-address-content .left-side ul li .icon {
+    width: 60px;
+    height: 60px;
+    border-width: 1px;
+    position: absolute;
+    left:0;
+    top:-9px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 30px;
+  }
+  #contact-section .contact-address-content .left-side ul li:hover .icon {
+    background: #fff;
+  }
+  #contact-section .contact-address-content #map {
+    width: 100%;
+    height: 500px;
+  }
+  #contact-section .send-message {
+    padding: 0 15px;
+  }
+  #contact-section .send-message h2 {
+    margin: 50px 0 40px 0;
+  }
+  #contact-section .send-message .single-input {
+    margin-bottom: 20px;
+    height: 50px;
+  }
+  #contact-section .send-message .single-input input,
+  #contact-section .send-message form textarea {
+    width: 100%;
+    height: 100%;
+    border:1px solid #dfdfdf;
+    padding: 0 15px;
+  }
+  #contact-section .send-message form textarea {
+    height: 260px;
+    max-width: 100%;
+    max-height: 260px;
+    margin-bottom: 25px;
+    padding: 20px 15px;
+  }
+  #contact-section .send-message .single-input input:focus,
+  #contact-section .send-message form textarea:focus {
+    border-color: #424040;
+  }
+  #contact-section .send-message form button {
+    width: 140px;
+    line-height: 40px;
+    text-align: center;
+    color:grey;
+    text-transform: uppercase;
+    border-width: 1px;
+  }
+  #contact-section .send-message form button:hover {
+    background: white;
+  }
+  
+   .title {
+      text-transform: capitalize;
+  }
+  
+  .title:after {
+      content:"";
+      display:block;
+      height:4px;
+      width:40px;
+      background-color: #EEB42C;
+      margin-top: 20px;
+  }
+  
+   .title:after {
+      margin: 20px auto 0px;
+  }
+  
+  .title {
+      font-size:31.5px;
+  }
+  
+  .contact {
+      margin: 15px 0px;
+      text-align: center;
+      
+  }
+  
+  .contact i {
+      font-size: 36px;
+      color: #EEB42C;
+      margin-bottom: 20px;
+  }
+  
+  .contact-form {
+      text-align: center;
+      margin-top: 40px;
+  }
+  
+  .contact-form .input {
+      margin-bottom: 20px;
+  }
+  
+  
+  .contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
+      width: calc(50% - 10px);
+  }
+  
+  .contact-form .input:nth-child(2) {
+      margin-left: 15px;
+  }
+  
+  button {
+      margin:auto;
+      display:block;
+  }
+  
+  /***
+  
+  ====================================================================
+    Conatct Form Activation
+  ====================================================================
+  
+   ***/
+  .alert-wrapper {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+  }
+  #success,
+  #error {
+    position: relative;
+    width:500px;
+    height: 100px;
+    top: calc(50% - 50px);
+    left:calc(50% - 250px);
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+  }
+  #success .wrapper,
+  #error .wrapper {
+    display: table;
+    width:100%;
+    height: 100%;
+  }
+  #success .wrapper p,
+  #error .wrapper p{
+    display: table-cell;
+    vertical-align: middle;
+    letter-spacing: 1px;
+  }
+  #success {
+    color: #57D1C9;
+  }
+  #error {
+    color: #C9182B;
+  }
+  #error button,
+  #success button {
+    color:#fff;
+    width:40px;
+    height:40px;
+    line-height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 20px;
+  }
+  .form-validation label.error {
+    display: none !important;
+  }
+  .form-validation input.error,
+  .form-validation textarea.error {
+    border:1px solid #f03838 !important;
+  }

@@ -1,0 +1,25 @@
+.container {
+ 
+    width: 100%;
+    height: 80%;
+  }
+  
+  .sliders {
+
+    position: relative;
+    width: 70vw;
+    height: 40vw;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+  }
