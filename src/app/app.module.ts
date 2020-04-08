@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServicesComponent } from './services/services.component';
 import { TeamComponent } from './team/team.component';
 import { FooterComponent } from './footer/footer.component';
+import { TopButtonComponent } from './top-button/top-button.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     ServicesComponent,
     TeamComponent,
-    FooterComponent
+    FooterComponent,
+    TopButtonComponent
   ],
   imports: [
     BrowserModule,

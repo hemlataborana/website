@@ -18,7 +18,17 @@
     margin-bottom: 20px;
     padding: 118px 23px 65px 23px;
     overflow: hidden;
+    
+  
+        
   }
+  hr{
+    width: 2.5vw;
+    background-color: #EEB42C;
+    color: #EEB42C;
+    block-size: .3vw;
+  }
+  
   #service-section .single-service-content p {
     -webkit-transition-delay: 0.3s; /* Safari */
     transition-delay: 0.3s;
@@ -28,6 +38,11 @@
         -ms-transform: translate3D(0,200px,0);
          -o-transform: translate3D(0,200px,0);
             transform: translate3D(0,200px,0);
+            -webkit-transition: all .4s ease-in-out;
+            -moz-transition: all .4s ease-in-out;
+             -ms-transition: all .4s ease-in-out;
+              -o-transition: all .4s ease-in-out;
+                 transition: all .4s ease-in-out;
   }
   #service-section .single-service-content .icon-heading {
     position: absolute;
@@ -36,6 +51,16 @@
     right: 0;
     top:120px;
   }
+  #service-section .single-service-content:hover .icon-heading .icon{
+    color:#EEB42C;
+  }
+  #service-section .single-service-content:hover .icon-heading h6 a{
+    color:#EEB42C;
+  }
+  #service-section .single-service-content:hover{
+    color:#EEB42C; 
+  }
+  
   #service-section .single-service-content .icon-heading .icon {
     font-size: 48px;
     color:#808489;

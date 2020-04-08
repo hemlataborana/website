@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
+/*----bootstrap css ----- */
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+/* @import url('../vendor/bootstrap/bootstrap.css'); */
+/*----font awesome -------*/
+@import url('../node_modules/font-awesome/css/font-awesome.css');
+/*----revolution-slider---*/
+/* @import url('../vendor/revolution/settings.css');
+@import url('../vendor/revolution/layers.css');
+@import url('../vendor/revolution/navigation.css'); */
+/*----owl-carousel css----*/
+/* @import url('../vendor/owl-carousel/owl.carousel.css');
+@import url('../vendor/owl-carousel/owl.theme.css'); */
+/*-------- animated css ------*/
+/* @import url('../vendor/WOW-master/css/libs/animate.css'); */
+/*---- Progress bar css----*/
+/* @import url('../vendor/skills-master/source/habilidades.css'); */
+/*-------- hover css ------*/
+/* @import url('../vendor/hover.css'); */
+/*----calendar css--------*/
+/* @import url('../vendor/monthly-master/css/monthly.css'); */

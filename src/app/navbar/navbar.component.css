@@ -4,6 +4,18 @@
 }
 ul li a{
     margin-right: 20px;
-    color: rgb(223, 209, 23);
-    /* background-color: khaki; */
+    color: #EEB42C;
+    
+   
 } 
+ul li a:hover{
+    margin-right: 20px;
+    color: white
+    
+   
+} 
+
+
+
+/* ----------------- */
+

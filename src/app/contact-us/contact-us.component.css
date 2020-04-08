@@ -125,7 +125,7 @@
     border-width: 1px;
   }
   #contact-section .send-message form button:hover {
-    background: white;
+    background:grey;
   }
   
    .title {
@@ -180,6 +180,7 @@
   }
   
   button {
+   background-color: #EEB42C;
       margin:auto;
       display:block;
   }
