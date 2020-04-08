@@ -22,15 +22,11 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
-              
             ],
             "styles": [
               "src/styles.css"
-            
             ],
-            "scripts":[
-            
-              ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -93,7 +89,6 @@
             ],
             "styles": [
               "src/styles.css"
-
             ],
             "scripts": []
           }
@@ -122,8 +117,13 @@
               "devServerTarget": "my-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "my-app"
 }
